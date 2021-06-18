@@ -1,9 +1,7 @@
 import React from 'react';
 import './Navbar.scss';
 
-import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
-import LanguageIcon from '@material-ui/icons/Language';
-import SettingsIcon from '@material-ui/icons/Settings';
+import { NotificationsNone, Language, Settings } from '@material-ui/icons';
 
 export default function Navbar() {
 	return (
@@ -14,16 +12,16 @@ export default function Navbar() {
 				</div>
 				<div className="nav-right">
 					<div className="nav-icon-container">
-						<NotificationsNoneIcon />
+						<NotificationsNone />
 						<span className="nav-icon-badge">2</span>
 					</div>
 
 					<div className="nav-icon-container">
-						<LanguageIcon />
+						<Language />
 					</div>
 
 					<div className="nav-icon-container">
-						<SettingsIcon />
+						<Settings />
 					</div>
 
 					<img

@@ -1,0 +1,54 @@
+.featured {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	// padding: 1rem;
+
+	&-item {
+		flex: 1;
+		margin: 0 1.125rem;
+		padding: 1.875rem;
+		border-radius: 10px;
+		cursor: pointer;
+		box-shadow: 9px 9px 10px -1px rgba(0, 0, 0, 0.12);
+		-webkit-box-shadow: 9px 9px 10px -1px rgba(0, 0, 0, 0.12);
+		-moz-box-shadow: 9px 9px 10px -1px rgba(0, 0, 0, 0.12);
+
+		.featured-title {
+			font-size: 1.125rem;
+		}
+
+		.featured-money-container {
+			margin: 1.125rem 0;
+			display: flex;
+			align-items: center;
+
+			.featured-money {
+				font-size: 1.5rem;
+				font-weight: 600;
+			}
+
+			.featured-money-rate {
+				display: flex;
+				align-items: center;
+				margin-left: 1.125rem;
+
+				.featured-icon {
+					font-size: 1rem;
+					margin-left: 5px;
+					font-weight: bolder;
+					color: green;
+				}
+
+				.negative {
+					color: red !important;
+				}
+			}
+		}
+
+		.featured-sub {
+			font-size: 1rem;
+			color: gray;
+		}
+	}
+}
