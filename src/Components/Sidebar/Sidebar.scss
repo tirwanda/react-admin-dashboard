@@ -3,6 +3,7 @@
 	height: calc(100vh - 50px);
 	background-color: rgba($color: #f7f7f7, $alpha: 1);
 	position: sticky;
+	border-top-right-radius: 15px;
 	top: 50px;
 
 	.sidebar-wrapper {

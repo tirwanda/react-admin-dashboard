@@ -72,3 +72,51 @@ export const userData = [
 		amt: 2100,
 	},
 ];
+
+export const userRows = [
+	{
+		id: 1,
+		username: 'edho',
+		fullName: 'edho',
+		avatar: 'https://images.pexels.com/photos/54323/rose-composites-flowers-spring-54323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		email: 'edho@gmail.com',
+		status: 'active',
+		transaction: 'Rp 275,000',
+	},
+	{
+		id: 2,
+		username: 'edho',
+		fullName: 'edho',
+		avatar: 'https://images.pexels.com/photos/4186329/pexels-photo-4186329.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		email: 'edho@gmail.com',
+		status: 'pasive',
+		transaction: 'Rp 275,000',
+	},
+	{
+		id: 3,
+		username: 'edho',
+		fullName: 'edho',
+		avatar: 'https://images.pexels.com/photos/5412266/pexels-photo-5412266.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		email: 'edho@gmail.com',
+		status: 'active',
+		transaction: 'Rp 275,000',
+	},
+	{
+		id: 4,
+		username: 'edho',
+		fullName: 'edho',
+		avatar: 'https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		email: 'edho@gmail.com',
+		status: 'active',
+		transaction: 'Rp 275,000',
+	},
+	{
+		id: 5,
+		username: 'edho',
+		fullName: 'edho',
+		avatar: 'https://images.pexels.com/photos/62689/pexels-photo-62689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		email: 'edho@gmail.com',
+		status: 'active',
+		transaction: 'Rp 275,000',
+	},
+];
