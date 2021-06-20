@@ -4,9 +4,12 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Home from './Pages/Home/Home';
+
 import UserList from './Pages/UserList/UserList';
 import User from './Pages/User/User';
 import NewUser from './Pages/NewUser/NewUser';
+
+import ProductList from './Pages/ProductList/ProductList';
 
 function App() {
 	return (
@@ -28,6 +31,13 @@ function App() {
 						<Route path="/new-user">
 							<NewUser />
 						</Route>
+						<Route exact path="/products">
+							<ProductList />
+						</Route>
+						<Route path="/product/:productId">
+							{/* <User /> */}
+						</Route>
+						<Route path="/new-product">{/* <NewUser /> */}</Route>
 					</Switch>
 				</div>
 			</div>

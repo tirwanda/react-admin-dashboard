@@ -76,12 +76,12 @@ export const userData = [
 export const userRows = [
 	{
 		id: 1,
-		username: 'edho',
+		name: 'Macbook Pro M1',
 		fullName: 'edho',
-		avatar: 'https://images.pexels.com/photos/54323/rose-composites-flowers-spring-54323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-		email: 'edho@gmail.com',
+		img: 'https://images.pexels.com/photos/54323/rose-composites-flowers-spring-54323.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		stock: 123,
 		status: 'active',
-		transaction: 'Rp 275,000',
+		price: 'Rp 23,000,000',
 	},
 	{
 		id: 2,
@@ -118,5 +118,53 @@ export const userRows = [
 		email: 'edho@gmail.com',
 		status: 'active',
 		transaction: 'Rp 275,000',
+	},
+];
+
+export const productRows = [
+	{
+		id: 1,
+		name: 'Macbook Pro M1',
+		fullName: 'edho',
+		img: 'https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		stock: 123,
+		status: 'active',
+		price: 'Rp 23,000,000',
+	},
+	{
+		id: 2,
+		name: 'Macbook Air M1',
+		fullName: 'edho',
+		img: 'https://images.pexels.com/photos/4068310/pexels-photo-4068310.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		stock: 123,
+		status: 'pasive',
+		price: 'Rp 23,000,000',
+	},
+	{
+		id: 3,
+		name: 'Apple Air Pods',
+		fullName: 'edho',
+		img: 'https://images.pexels.com/photos/3945697/pexels-photo-3945697.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		stock: 123,
+		status: 'active',
+		price: 'Rp 23,000,000',
+	},
+	{
+		id: 4,
+		name: 'Macbook Pro M1',
+		fullName: 'edho',
+		img: 'https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		stock: 123,
+		status: 'active',
+		price: 'Rp 23,000,000',
+	},
+	{
+		id: 5,
+		name: 'Macbook Pro M1',
+		fullName: 'edho',
+		img: 'https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+		stock: 123,
+		status: 'active',
+		price: 'Rp 23,000,000',
 	},
 ];
