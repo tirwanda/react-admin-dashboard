@@ -22,21 +22,26 @@
 			.sidebar-list {
 				list-style: none;
 
-				.sidebar-list-item {
-					padding: 5px;
-					cursor: pointer;
-					display: flex;
-					align-items: center;
-					border-radius: 10px;
+				.link-tag {
+					text-decoration: none;
+					color: #555;
 
-					.sidebar-icon {
-						margin-right: 10px;
-						font-size: 1.125rem;
-					}
+					.sidebar-list-item {
+						padding: 5px;
+						cursor: pointer;
+						display: flex;
+						align-items: center;
+						border-radius: 10px;
 
-					&:hover,
-					&.active {
-						background-color: rgb(230, 227, 227);
+						.sidebar-icon {
+							margin-right: 10px;
+							font-size: 1.125rem;
+						}
+
+						&:hover,
+						&.active {
+							background-color: rgb(230, 227, 227);
+						}
 					}
 				}
 			}
