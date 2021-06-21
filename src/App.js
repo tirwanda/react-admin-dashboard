@@ -10,6 +10,7 @@ import User from './Pages/User/User';
 import NewUser from './Pages/NewUser/NewUser';
 
 import ProductList from './Pages/ProductList/ProductList';
+import Product from './Pages/Product/Product';
 
 function App() {
 	return (
@@ -35,7 +36,7 @@ function App() {
 							<ProductList />
 						</Route>
 						<Route path="/product/:productId">
-							{/* <User /> */}
+							<Product />
 						</Route>
 						<Route path="/new-product">{/* <NewUser /> */}</Route>
 					</Switch>
